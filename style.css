@@ -1,0 +1,26 @@
+/*Reset + Root*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-primary: #4f46e5;
+    --color-text: #e2e8f0;
+    --color-muted: #94a3b8;
+
+    --max-width: 1100px;
+    --radius: 10px;
+    --transition: 0.3s ease-in-out;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
