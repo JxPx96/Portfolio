@@ -24,3 +24,44 @@ body{
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
+
+/*-----Header-----*/
+
+header{
+    background: var(--color-surface);
+}
+
+.navbar{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.nav-links a:hover{
+    color: var(--color-primary)
+}
+
+/*-----Footer-----*/
+footer{
+    background-color: var(--color-surface);
+    padding: 1.5rem;
+    text-align: center;
+    justify-content: space-between;
+}
